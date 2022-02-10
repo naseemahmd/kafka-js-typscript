@@ -1,0 +1,26 @@
+{
+  "name": "TSKafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:prd":"ts-node src/producer.ts",
+    "start:cn":"ts-node src/consumer.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/kafka-node": "^3.0.0",
+    "@types/kafkajs": "^1.9.0",
+    "@types/node": "^17.0.17",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "kafka-node": "^3.0.0",
+    "kafkajs": "^1.12.0",
+    "readline-sync": "^1.4.10"
+  }
+}
